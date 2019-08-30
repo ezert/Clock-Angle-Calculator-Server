@@ -25,6 +25,12 @@ server.get('/clock/:h/:min', (req, res) => {
 
 });
 
+server.get('/clock/:h', (req, res) => {
+    
+    res.send(inputManager(req.params.h, 0));
+
+});
+
 server.listen(port, function () { 
     console.log('Listening on...') 
 });

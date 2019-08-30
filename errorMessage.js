@@ -1,3 +1,1 @@
-module.exports = ((message) => {
-    return 'error: ' + message;
-})()
+module.exports = (message) => { return 'error: ' + message; }

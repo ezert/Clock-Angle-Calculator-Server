@@ -2,11 +2,11 @@ const cache = require('memory-cache');
 
 module.exports = {
     
-    getValue = (key) => {
+    getValue : (key) => {
         return cache.get();
     },
 
-    storeValue = (key, result) => {
+    storeValue : (key, result) => {
         cache.put(key, result);
     }
 
