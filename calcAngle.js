@@ -20,6 +20,6 @@ module.exports = (h, min) => {
         return calc(h, min);
     }
 
-    return calc(h, min);
+    return calc(min, h);
 
 }
